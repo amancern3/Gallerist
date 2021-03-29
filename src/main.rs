@@ -9,7 +9,7 @@ use std::env;
 
 struct Handler;
 
-const DISCORD_TOKEN : &str = "ODI2MDM3NzQ0NzE1MzAwODc1.YGGpmQ.eGDl-VVgKFGX8rl958HAYv8rEG4"; 
+const DISCORD_TOKEN : &str = ""; 
 
 #[async_trait]
 impl EventHandler for Handler {
