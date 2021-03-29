@@ -9,6 +9,7 @@ use std::env;
 
 struct Handler;
 
+// get new token from discord
 const DISCORD_TOKEN : &str = ""; 
 
 #[async_trait]
