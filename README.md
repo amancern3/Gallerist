@@ -29,3 +29,5 @@ Workflow
 5. Understand traits used for funcs
 
 6. Notes on commands ref: <https://betterprogramming.pub/writing-a-discord-bot-in-rust-2d0e50869f64>
+
+7. Add comments
