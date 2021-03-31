@@ -4,7 +4,7 @@ Discord bot built with Tokio and Serenity in Rust to display the object of the d
 
 ref : <https://www.slam.org/explore-the-collection/object-of-the-day/>
 
-```
+``` Rs
 
 Workflow
 
@@ -16,7 +16,7 @@ Workflow
 
 ```
 
-## Important Refrences + Notes:
+## Important Refrences + Notes
 
 1. Serenity examples useful ref: <https://github.com/serenity-rs/serenity/tree/current/examples>
 
@@ -31,3 +31,5 @@ Workflow
 6. Notes on commands ref: <https://betterprogramming.pub/writing-a-discord-bot-in-rust-2d0e50869f64>
 
 7. Add comments
+
+8. Web scrapper, ref: <https://kadekillary.work/post/webscraping-rust/>
