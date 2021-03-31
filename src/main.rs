@@ -13,7 +13,7 @@ mod webscrapper;
 
 struct Handler;
 
-// get new token from discord
+// use std::env to get token as terminal arg later 
 const DISCORD_TOKEN : &str = ""; 
 
 #[async_trait]
