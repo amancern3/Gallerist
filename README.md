@@ -20,16 +20,15 @@ Workflow
 
 1. Serenity examples useful ref: <https://github.com/serenity-rs/serenity/tree/current/examples>
 
-2. Tokio used for async -- need to completely understand
+2. Tokio::spawn used for async on message event.
 
-3. YT video series used as ref: <https://www.youtube.com/watch?v=tl766BHuAbE&list=PLzIwronG0sE5lQCPFP69Ukgz4d9dngaSi&index=10>
+3. Need to implement std::env to take token from terminal
 
-4. understand the use of std::env, namely env variables and how to now hardcode the token
+4. Notes on commands ref: <https://betterprogramming.pub/writing-a-discord-bot-in-rust-2d0e50869f64>
 
-5. Understand traits used for funcs
+5. Add comments
 
-6. Notes on commands ref: <https://betterprogramming.pub/writing-a-discord-bot-in-rust-2d0e50869f64>
+6. Web scrapper, ref: <https://kadekillary.work/post/webscraping-rust/>
 
-7. Add comments
+7. To select the h tags, ref: <https://docs.rs/scraper/0.12.0/scraper/>
 
-8. Web scrapper, ref: <https://kadekillary.work/post/webscraping-rust/>
