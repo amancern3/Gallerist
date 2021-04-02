@@ -1,7 +1,11 @@
 extern crate reqwest; 
 extern crate scraper;
 extern crate tokio;
+extern crate image;
 
+use std::io::copy;
+use std::fs::File;
+use tempfile::Builder;
 
 use scraper::{Html, Selector};
 
@@ -28,9 +32,22 @@ pub async fn object_of_the_day(url: &str) {
     let oftd = Selector::parse("h2").unwrap();
     println!("made it !");
 
-    for oftd in body.select(&oftd){
+   
+    let fig_selector = Selector::parse("figure").unwrap();
+    let src_selector = Selector::parse("img").unwrap();
+    /*for oftd in body.select(&oftd){
         let oftds = oftd.text().collect::<Vec<_>>();
         println!("{}", oftds[0]);
+    }*/
+    let fig = body.select(&fig_selector).next().unwrap();
+
+    for element in fig.select(&src_selector){
+            let value = element.value().name();
+            //let srcs = element.text().collect::<Vec<_>>();
+            //println!("{}", srcs[0]);
+            println!("{:?}", element.value().attr("data-src").unwrap()); 
+            let imgurl = element.value().attr("data-src").unwrap(); 
+            
     }
 
 }
