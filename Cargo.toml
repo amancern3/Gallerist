@@ -12,3 +12,5 @@ serenity = {default-features = false, features=["client", "gateway", "model", "r
 tokio = {version = "1.0", features=["full"]}
 reqwest = "0.11.2"
 scraper = "0.12.0"
+image = "0.23.14"
+tempfile = "3.2.0"
