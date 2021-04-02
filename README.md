@@ -32,4 +32,6 @@ Workflow
 
 7. To select the h tags, ref: <https://docs.rs/scraper/0.12.0/scraper/>
 
-8. Tutorial to download images, ref <https://www.youtube.com/watch?v=m_agcM_ds1c>
+8. Tutorial to download images, ref: <https://www.youtube.com/watch?v=m_agcM_ds1c>
+
+9. Cookbook to download images off the internet and store in temp file, ref: <https://rust-lang-nursery.github.io/rust-cookbook/web/clients/download.html>

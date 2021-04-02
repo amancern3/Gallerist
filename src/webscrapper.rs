@@ -48,6 +48,10 @@ pub async fn object_of_the_day(url: &str) {
             println!("{:?}", element.value().attr("data-src").unwrap()); 
             let imgurl = element.value().attr("data-src").unwrap(); 
             
+            /*
+            Cookbook to download images off the internet 
+            and store in temp file, ref: <https://rust-lang-nursery.github.io/rust-cookbook/web/clients/download.html>
+            */
     }
 
 }
